@@ -1,0 +1,115 @@
+/*
+
+=========================================================
+* Leo Agency Bootstrap Theme
+=========================================================
+
+* Product Page: https://themesberg.com/product/bootstrap/leo-agency-bootstrap-4-template
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+=========================================================
+[Table of contents]
+
+* Please search after the "#foo_bar" identifier to find the section.
+
+1. Layout
+    1.1 Footer              / #leo_footer
+    1.2 Navbar              / #leo_navbar
+    1.3 Sections            / #leo_sections
+    1.4 Sidebar             / #leo_sidebar
+2. Components
+    2.1 Accordions          / #leo_accordions
+    2.2 Alerts              / #leo_alerts
+    2.3 Avatars             / #leo_avatars
+    2.4 Badges              / #leo_badges
+    2.5 Blog Cards          / #leo_blog_cards
+    2.6 Breadcrumbs         / #leo_breadcrumbs
+    2.7 Buttons             / #leo_buttons
+    2.8 Cards               / #leo_cards
+    2.9 Carousel            / #leo_carousel
+    2.10 Close              / #leo_close
+    2.11 Counters           / #leo_counters
+    2.12 Custom Forms       / #leo_custom_forms
+    2.13 Datepicker         / #leo_datepicker
+    2.14 Dropdowns          / #leo_dropdowns
+    2.15 Forms              / #leo_forms
+    2.16 Icon Boxes         / #leo_icon_boxes
+    2.17 Images             / #leo_images
+    2.18 Input Groups       / #leo_input_groups
+    2.19 List Groups        / #leo_list_groups
+    2.20 Loader             / #leo_loader
+    2.21 Maps               / #leo_maps
+    2.22 Modals             / #leo_modals
+    2.23 Navs               / #leo_navs
+    2.24 Owl Carousels      / #leo_owl_carousels
+    2.25 Pagination         / #leo_pagination
+    2.26 Popovers           / #leo_popovers
+    2.27 Pricing Cards      / #leo_pricing_cards
+    2.28 Profile Cards      / #leo_profile_cards
+    2.29 Progress Bars      / #leo_progress_bars
+    2.30 Shapes             / #leo_shapes
+    2.31 Steps              / #leo_steps
+    2.32 Timelines          / #leo_timelines 
+    2.33 Tooltips           / #leo_tooltips
+    2.34 Typography         / #leo_typography
+3. Utilities
+    3.1 Animations          / #leo_animations
+    3.2 Backgrounds         / #leo_backgrounds
+    3.3 Borders             / #leo_borders
+    3.4 Floating            / #leo_floating
+    3.5 Helpers             / #leo_helpers
+    3.6 Position            / #leo_position
+    3.7 Shadows             / #leo_shadows
+    3.8 Sizing              / #leo_sizing
+    3.9 Spacing             / #leo_spacing
+    3.10 Text               / #leo_text
+    3.11 Transform          / #leo_transform
+4. Vendor / Third Party Plugins
+    4.1 BS Datepicker       / #leo_bs_datepicker
+    4.2 BS Tag Inputs       / #leo_bs_tag_inputs
+    4.3 Headroom            / #leo_headroom
+    4.4 NoUISlider          / #leo_nouislider
+    4.5 Owl Carousel        / #leo_owl_carousel
+
+=========================================================
+
+*/
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400i,700i&display=swap');
+
+// Bootstrap mixins and functions
+@import "bootstrap/mixins";
+@import "bootstrap/functions";
+
+// Change variables here
+@import "leo/variables";
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+
+// Vendor
+@import "leo/vendor";
+
+// Mixins & functions
+@import "leo/mixins";
+@import "leo/functions";
+
+// Utilities
+@import "leo/reboot";
+@import "leo/utilities";
+
+// Layout
+@import "leo/layout";
+
+// Components
+@import "leo/components";
+
+/* write your custom styles here! */

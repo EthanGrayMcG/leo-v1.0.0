@@ -1,0 +1,7 @@
+/*------------------------------------------------------------------
+[2.33 Tooltips / #leo_tooltips]
+*/
+
+.tooltip-inner {
+    @include box-shadow($box-shadow);
+}

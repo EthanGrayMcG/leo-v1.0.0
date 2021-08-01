@@ -1,0 +1,84 @@
+<!--
+
+=========================================================
+* Leo Agency Bootstrap Theme
+=========================================================
+
+* Product Page: https://themesberg.com/product/bootstrap/leo-agency-bootstrap-4-template
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "./..",
+        "title": "Leo - Legal Page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "./..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+    <main class="bg-primary">
+
+        @@include('./_preloader.html', {
+            "path": "./.."
+        })
+
+        <!-- Hero -->
+        <section class="section-header pb-6 bg-soft text-dark line-bottom-soft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-2 font-weight-bolder mb-4">Terms and Conditions</h1>
+                        <p class="lead">Find out about our Terms and Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article class="section section-md bg-soft text-dark line-bottom-soft">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="h3 mb-4">General Terms</h2>
+                        <p> By accessing and placing an order with Themesberg, you confirm that you are in agreement with and bound by the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the entire website and any email or other type of communication between you and Themesberg. </p>
+                        <p>Under no circumstances shall Themesberg team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if Themesberg team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
+                        <p class="mb-5">Themesberg will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment.</p>
+                        <h2 class="h3 mb-4">Products</h2>
+                        <p>All products and services are delivered by Themesberg electronically and you can access your downloads from your profile page.</p>
+                        <p class="mb-5">Themesberg is not responsible for any technological delays beyond our control. If your spam blocker blocks our emails from reaching you or you do not provide a valid email address where you can be reachable then you can access your download from the Downloads page.</p>
+                        <h2 class="h3 mb-4">Security</h2>
+                        <p class="mb-5">Themesberg does not process any order payments through the website. All payments are processed securely through online payment provider (e.g. PayPal, Stripe), a third party online payment provider. Feel free to contact us about our security policies.</p>
+                        <h2 class="h3 mb-4">Ownership</h2>
+                        <p class="mb-5">Ownership of the product is governed by the usage license selected by the seller.</p>
+                        <h2 class="h3 mb-4">Changes to terms</h2>
+                        <p>If we change our terms of use we will post those changes on this page. Registered users will be sent an email that outlines changes made to the terms of use.</p>
+                        <hr class="border-variant-soft mt-6 mb-5">
+                        <div class="text-center justify-content-center">
+                            <p class="font-weight-light">Got a question? <a href="./contact.html" class="font-weight-bold text-primary">Contact us</a></p>
+                        </div>
+                    </div>
+                </div>            </div>
+        </article>
+    
+        @@include('./_footer.html', {
+            "path": "./..",
+            "classes": "bg-primary text-white"
+        })
+    </main>
+    @@include('./_scripts.html', {
+        "path": "./.."
+    })
+</body>
+
+</html>

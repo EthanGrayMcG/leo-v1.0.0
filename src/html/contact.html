@@ -1,0 +1,76 @@
+<!--
+
+=========================================================
+* Leo Agency Bootstrap Theme
+=========================================================
+
+* Product Page: https://themesberg.com/product/bootstrap/leo-agency-bootstrap-4-template
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "./..",
+        "title": "Leo - Contact Page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "./..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "./.."
+        })
+
+        <!-- Hero -->
+        <section class="section-header bg-tertiary pb-5 pb-lg-7">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <h1 class="display-1 font-weight-extreme mb-4">Let's <span class="text-primary">Talk</span></h1>
+                        <p class="lead mb-1"><i class="fas fa-map-marker-alt mr-3"></i> Timisoara, Romania, Strada Aristide Demetriade</p>
+                        <p class="lead mb-4"><i class="fas fa-phone mr-2"></i> +40 634 121 222</p>
+                        <p class="lead">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.</p>
+                    </div>
+                    <div class="col-12 col-md-5 d-none d-lg-block text-center">
+                        <img src="./../assets/img/illustrations/contact.svg" class="w-75" alt="">
+                    </div>
+                </div>
+            </div>
+            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
+                <svg class="fill-soft" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
+                    <path d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"></path>
+                </svg>
+            </figure>
+        </section>
+        
+        @@include('./_cta-project.html', {
+            "path": "./..",
+            "classes": "bg-light text-dark"
+        })
+    
+        @@include('./_footer.html', {
+            "path": "./..",
+            "classes": "bg-primary text-white"
+        })
+
+    </main>
+    @@include('./_scripts.html', {
+        "path": "./.."
+    })
+</body>
+
+</html>

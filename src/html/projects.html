@@ -1,0 +1,131 @@
+<!--
+
+=========================================================
+* Leo Agency Bootstrap Theme
+=========================================================
+
+* Product Page: https://themesberg.com/product/bootstrap/leo-agency-bootstrap-4-template
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "./..",
+        "title": "Leo - Projects Page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "./..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+    <main>
+
+        @@include('./_preloader.html', {
+            "path": "./.."
+        })
+
+        <!-- Hero -->
+        <section class="section-header pb-5 bg-soft text-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col col-lg-8 text-center">
+                        <h1 class="display-1 font-weight-extreme mb-4">Projects made with <span class="text-primary">purpose.</span></h1>
+                        <span class="icon icon-md">
+                            <i class="fas fa-angle-double-down"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg bg-soft line-bottom-soft">
+            <div class="container"> 
+                <div class="row justify-content-between align-items-center mb-6">
+                   <div class="col-12 col-md-6 mb-4 mb-lg-0">
+                        <div class="card bg-tertiary border-tertiary p-0">
+                            <div class="card-body p-1">
+                                <img src="../assets/img/themesberg-website.jpg" alt="projectscreen">
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-12 col-md-5">
+                        <h2 class="display-2 mb-3">Themesberg</h2>
+                        <p class="mb-4 lead">Worked on UX Improvement, mobile, web UI design and defined brand style.</p>
+                        <ul class="list-unstyled pl-0 mb-4">
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Redesign marketplace official website</li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Improve SEO </li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Marketing Campaign</li>
+                        </ul>
+                        <a href="./case-study.html" class="btn btn-primary animate-up-2"><i class="fas fa-book mr-2"></i> Case study</a>
+                    </div> 
+                </div>
+                <hr class="border-soft my-2">
+                <div class="row justify-content-between align-items-center mb-6 mt-lg-6">
+                    <div class="col-12 order-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <div class="card bg-tertiary border-tertiary p-0">
+                            <div class="card-body p-1">
+                                <img src="../assets/img/agency-portofolio-app-2.png" alt="projectscreen">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 order-lg-1 col-md-5">
+                        <h2 class="display-2 mb-3">PixelChat App</h2>
+                        <p class="mb-4 lead">Worked on UX Improvement, mobile, web UI design and defined brand style.</p>
+                        <ul class="list-unstyled pl-0 mb-4">
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Redesign marketplace official website</li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Improve SEO </li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Marketing Campaign</li>
+                        </ul>
+                        <a href="./case-study.html" class="btn btn-primary animate-up-2"><i class="fas fa-book mr-2"></i> Case study</a>
+                    </div> 
+                </div>
+                <hr class="border-soft my-2">
+                <div class="row justify-content-between align-items-center mt-lg-6">
+                    <div class="col-12 col-md-7 mb-4 mb-lg-0">
+                        <div class="card bg-tertiary border-tertiary p-0">
+                            <div class="card-body p-1">
+                                <img src="../assets/img/desktop-app-chat.png" alt="projectscreen">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h2 class="display-2 mb-3">Platform</h2>
+                        <p class="mb-4 lead">Pixel is a premium HTML theme that includes adaptable layouts for various industries and free monthly updates.</p>
+                        <ul class="list-unstyled pl-0 mb-4">
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Redesign marketplace official website</li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Improve SEO </li>
+                            <li class="h6 py-1"><span class="icon icon-xs mr-2"><i class="fas fa-check-circle"></i></span>Marketing Campaign</li>
+                        </ul>
+                        <a href="./case-study.html" class="btn btn-primary animate-up-2"><i class="fas fa-book mr-2"></i> Case study</a>
+                     </div> 
+                 </div>
+            </div>
+        </section>
+
+        @@include('./_cta-project.html', {
+            "path": "./..",
+            "classes": "bg-light text-dark"
+        })
+
+        @@include('./_footer.html', {
+            "path": "./..",
+            "classes": "bg-primary text-white"
+        })
+
+    </main>
+    @@include('./_scripts.html', {
+        "path": "./.."
+    })
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------
+[2.11 Counters / #leo_counters]
+*/
+
+.counter-alternate{
+    &::after{
+        content: '\f067';
+        font-family: $font-awesome-5;
+        position: absolute;
+        font-size: 2.25rem;
+        color:$dark;
+        font-weight: 900;
+    }
+}

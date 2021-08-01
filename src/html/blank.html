@@ -1,0 +1,60 @@
+<!--
+
+=========================================================
+* Leo Agency Bootstrap Theme
+=========================================================
+
+* Product Page: https://themesberg.com/product/bootstrap/leo-agency-bootstrap-4-template
+* Copyright 2020 Themesberg (https://www.themesberg.com)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "./..",
+        "title": "Leo - Blog Post Page"
+    })
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "./..",
+        "classes": "navbar-light navbar-theme-primary"
+    })
+    <main class="bg-primary">
+
+        @@include('./_preloader.html', {
+            "path": "./.."
+        })
+
+        <!-- Hero -->
+        <section class="section-header pb-6 bg-soft text-dark line-bottom-soft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-1 font-weight-bolder mb-4">Blank Page</h1>
+                        <p class="lead">Find out about our Terms and Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        @@include('./_footer.html', {
+            "path": "./..",
+            "classes": "bg-primary text-white"
+        })
+    </main>
+    @@include('./_scripts.html', {
+        "path": "./.."
+    })
+</body>
+
+</html>
